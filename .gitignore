@@ -1,33 +1,70 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# ======================
+# Build 관련
+# ======================
+/target/
+build/
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# ======================
+# Maven Wrapper
+# ======================
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
 
-### IntelliJ IDEA ###
-.idea
+# ======================
+# IntelliJ IDEA
+# ======================
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# STS(Spring Tool Suite)
+# ======================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ======================
+# NetBeans
+# ======================
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# ======================
+# 로그/임시 파일
+# ======================
+*.log
+*.tmp
+*.bak
+
+# ======================
+# OS/유저 환경 관련 (Windows, macOS 등)
+# ======================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ======================
+# 사용자 폴더 캐시
+# ======================
+/AppData/
